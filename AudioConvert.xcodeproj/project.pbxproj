@@ -13,6 +13,8 @@
 		827EA9CA212D7BB100C0799B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 827EA9C9212D7BB100C0799B /* Assets.xcassets */; };
 		827EA9CD212D7BB100C0799B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 827EA9CB212D7BB100C0799B /* LaunchScreen.storyboard */; };
 		827EA9D0212D7BB100C0799B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 827EA9CF212D7BB100C0799B /* main.m */; };
+		827EA9D8212D7BBF00C0799B /* TPAACAudioConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 827EA9D7212D7BBE00C0799B /* TPAACAudioConverter.m */; };
+		827EA9DA212D7DFD00C0799B /* abc.wav in Resources */ = {isa = PBXBuildFile; fileRef = 827EA9D9212D7DFD00C0799B /* abc.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		827EA9CC212D7BB100C0799B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		827EA9CE212D7BB100C0799B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		827EA9CF212D7BB100C0799B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		827EA9D6212D7BBE00C0799B /* TPAACAudioConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPAACAudioConverter.h; sourceTree = "<group>"; };
+		827EA9D7212D7BBE00C0799B /* TPAACAudioConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPAACAudioConverter.m; sourceTree = "<group>"; };
+		827EA9D9212D7DFD00C0799B /* abc.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = abc.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +63,13 @@
 		827EA9BF212D7BB000C0799B /* AudioConvert */ = {
 			isa = PBXGroup;
 			children = (
+				827EA9D6212D7BBE00C0799B /* TPAACAudioConverter.h */,
+				827EA9D7212D7BBE00C0799B /* TPAACAudioConverter.m */,
 				827EA9C0212D7BB000C0799B /* AppDelegate.h */,
 				827EA9C1212D7BB000C0799B /* AppDelegate.m */,
 				827EA9C3212D7BB000C0799B /* ViewController.h */,
 				827EA9C4212D7BB000C0799B /* ViewController.m */,
+				827EA9D9212D7DFD00C0799B /* abc.wav */,
 				827EA9C6212D7BB000C0799B /* Main.storyboard */,
 				827EA9C9212D7BB100C0799B /* Assets.xcassets */,
 				827EA9CB212D7BB100C0799B /* LaunchScreen.storyboard */,
@@ -129,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				827EA9CD212D7BB100C0799B /* LaunchScreen.storyboard in Resources */,
+				827EA9DA212D7DFD00C0799B /* abc.wav in Resources */,
 				827EA9CA212D7BB100C0799B /* Assets.xcassets in Resources */,
 				827EA9C8212D7BB000C0799B /* Main.storyboard in Resources */,
 			);
@@ -144,6 +153,7 @@
 				827EA9C5212D7BB000C0799B /* ViewController.m in Sources */,
 				827EA9D0212D7BB100C0799B /* main.m in Sources */,
 				827EA9C2212D7BB000C0799B /* AppDelegate.m in Sources */,
+				827EA9D8212D7BBF00C0799B /* TPAACAudioConverter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
